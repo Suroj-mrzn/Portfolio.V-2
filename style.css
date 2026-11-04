@@ -14,11 +14,15 @@ body{
 }
 
 nav{
-    --bg: black;
-    background-color: var(--bg);
-    color: contrast-color(var(--bg));
+    background: rgba(17, 24, 39, 0.7);
+    backdrop-filter: blur(8px);
+    z-index: 100;
+    position: sticky;
+    top: 0;
+
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px 20px;
     margin: 0;
@@ -44,7 +48,7 @@ nav ul{
     display: flex;
     padding: 0;
     margin: 0;
-    gap: 50px;
+    gap: 30px;
 }
 
 header{
@@ -58,7 +62,7 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
-    border-bottom: #070607 5px solid;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 header h1{
     font-weight: bold;
@@ -91,24 +95,29 @@ transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   box-shadow: 0 8px 25px rgba(255, 0, 127, 0.6);
 }
 #Hero{
-    --bg: rgb(136, 120, 120);
-    background-color: var(--bg);
+    --bg: rgb(136, 120, 120);  
     color: contrast-color(var(--bg));
-    display: flex;
-    border: 3px solid;
+    display: flex;  
     flex-direction: row;
-    gap: 30px;
-    margin: 50px;
     padding: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
     }
 
 #Hero > div{
     flex:1;
-    border-left: 3px solid;
-   padding: 5px;
+    background-image: linear-gradient(135deg, #174dc2, #27c375);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(58, 150, 221, 0.4);
+    border-radius: 12px;
+    padding: 24px;
+    color: #fff;
+
 }
 #Hero h2{
     font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
     
 }
 #Hero h3{

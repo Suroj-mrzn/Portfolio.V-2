@@ -14,3 +14,13 @@ NVM IM GONNA USE FLEX llol i got CSS i forgot
 
 
 Then Contacts maybe
+
+
+
+
+
+
+
+OKAYYYY WE DONE WITH HMTL PARTTTTTTTTTTTTT!!!!!!!!
+
+now css 

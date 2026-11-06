@@ -3,8 +3,16 @@
  margin: 0;
  padding: 0;
 }
-
-
+html{
+    scroll-behavior:smooth;
+}
+::selection {
+  background: #1e84cd;
+  color: #0d1117;
+}
+a, button, .card {
+  transition: all 0.3s ease-in-out;
+}
 body{
       --bg:#111827;
     background-color: var(--bg);
@@ -74,6 +82,15 @@ header p{
     font-size: small;
     
 }
+header a{
+    text-decoration: none;
+    color:rgb(190, 168, 168)
+}
+#at-a-glance{
+    padding: 20px;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
 #myButton{
 /* From https://css.glass */
 border-radius: 16px;
@@ -85,15 +102,20 @@ border: 1px solid rgba(255, 255, 255, 0.39);
 
 font-weight: 600;
 cursor: pointer;
-padding: 20px;
+padding: 14px;
 margin-top: 25px;
 transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #myButton:hover{
      transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(255, 0, 127, 0.6);
 }
+
 #Hero{
     --bg: rgb(136, 120, 120);  
     color: contrast-color(var(--bg));
@@ -126,4 +148,44 @@ transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 #Hero p{
     font-size: 12px;
+}
+#myH1{
+    padding: 20px;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.AboutMe{
+    padding: 2px 30px;
+    padding-bottom: 50px;
+    text-wrap: balance;
+}
+#About h3{
+    font-size: 2.11rem;
+    font-weight: bold;
+    font-style: italic;
+}
+#About ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+/*CUSTOMM SCROLL BAR Optionional Obviously*/
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+
+/* Handle (the thumb you drag) */
+::-webkit-scrollbar-thumb {
+  background: #174dc2;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #27c375;
 }

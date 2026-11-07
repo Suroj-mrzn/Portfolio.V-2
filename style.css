@@ -127,14 +127,21 @@ display: block;
     }
 
 #Hero > div{
-    flex:1;
+    flex:1 1 300px;
+    max-width: 100%;
     background-image: linear-gradient(135deg, #174dc2, #27c375);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 10px rgba(58, 150, 221, 0.4);
     border-radius: 12px;
     padding: 24px;
     color: #fff;
-
+    transition: 0.3s ease-in-out;
+    opacity: 0.9;
+}
+#Hero > div:hover{
+    transform: scale(1.075) rotate(1deg);
+    box-shadow: 0 15px 30px rgba(58, 150, 221, 0.6);
+    opacity: 1;
 }
 #Hero h2{
     font-weight: bold;

@@ -196,3 +196,44 @@ display: block;
 ::-webkit-scrollbar-thumb:hover {
   background: #27c375;
 }
+.Contact-container{
+    padding: 2px 30px;
+    text-wrap: balance;
+    padding-bottom: 10px;
+}
+#Contacts {
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.Contact-container {
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+footer a{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+footer a:hover{
+    color: rgb(158, 36, 203);
+}
+
+.social-icons {
+  fill: #8b949e; 
+  transition: fill 0.2s ease, filter 0.2s ease;
+}
+
+.social-links a:hover .social-icons {
+  fill: #7329ce; 
+  filter: drop-shadow(0 0 8px rgba(189, 26, 181, 0.6));
+}

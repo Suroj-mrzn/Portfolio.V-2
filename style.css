@@ -223,9 +223,10 @@ display: block;
 footer a{
     text-decoration: none;
     transition: 0.3s ease-in-out;
+    color: #D946EF;
 }
 footer a:hover{
-    color: rgb(158, 36, 203);
+    color: rgb(56, 188, 73);
 }
 
 .social-icons {
@@ -236,4 +237,57 @@ footer a:hover{
 .social-links a:hover .social-icons {
   fill: #7329ce; 
   filter: drop-shadow(0 0 8px rgba(189, 26, 181, 0.6));
+}
+
+
+
+/*Projectssss ko part haru*/
+
+#myParagraph{
+    padding: 2px 30px;
+    padding-bottom: 50px;
+    text-wrap: balance;
+}
+.Project-Container{
+   display: flex;
+   text-wrap: balance;
+   align-items: center;
+   gap: 40px;
+   margin-bottom: 60px;
+   padding: 20px;
+}
+
+.Project-Container:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.Project-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.Project-info, .Project-img{
+    flex: 1;
+}
+.Project-info h2{
+    font-size: 2.15rem;
+    font-weight: bold;
+}
+.Project-info p{
+    font-size: 16px;
+    font-style: italic;
+}
+/* Stack project cards vertically on mobile screens */
+@media (max-width: 768px) {
+  .Project-Container,
+  .Project-Container:nth-child(even) {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .Project-info, .Project-img {
+    width: 100%;
+  }
 }

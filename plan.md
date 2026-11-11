@@ -17,11 +17,9 @@ Then Contacts maybe
 
 
 
-
-
 October 31
 
-OKAYYYY WE DONE WITH HMTL PARTTTTTTTTTTTTT!!!!!!!!
+OKAYYYY WE DONE WITH skeletio HMTL PARTTTTTTTTTTTTT!!!!!!!!
 
 now css 
 hmmm  November 4th
@@ -33,4 +31,22 @@ change the EXperience section cause its jokes rn.Maybe change the experience int
 
 cContact me needs work as well
 
-Also dont forget to link the <a href> haru
+Also dont forget to link the <a href> haru.
+
+
+November 10 
+
+
+
+soo much CSS T_T. idk what to add maybe projects lets see what happens i want to insert javascript as well but
+idk where hmmm 
+made the contact sectionn much clean and better but i think i lost tons of braincells in the process.
+the svg thingy 
+copy pasta the svg thingy from other website dont use too  much of head
+style  if needed or naww 
+
+
+Still havnt chnged the experice section i will later
+
+ 
+lemme cook tho 

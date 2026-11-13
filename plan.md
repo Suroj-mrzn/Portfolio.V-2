@@ -50,3 +50,9 @@ Still havnt chnged the experice section i will later
 
  
 lemme cook tho 
+
+November 11
+
+Added the project sectionnnss Look GOOD icl it looks good
+i still dont know how to insert java script here maybe just darkmode and light mode wala. idk
+Ok added 5 projects in the Project section and i think im done with that.

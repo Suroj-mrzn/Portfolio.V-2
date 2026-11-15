@@ -1,6 +1,7 @@
 //hdiuasgrfuoyiasgt  tryna make so what then i click the button on the side it slides up
 //but idk how to make
 //lets js try and see what happens
+//google helped a bit still hadnwritten codde no copy pasta
 
 const UpBtn = document.getElementById("Up-btn");
 

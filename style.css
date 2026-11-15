@@ -403,8 +403,9 @@ footer a:hover{
 }
 #Up-btn:hover{
   background: linear-gradient(135deg, #7fb53a, #0d5b31);
-  transform: scale(1.1);
+  transform: scale(1.1) translateY(-2px);
   color: rgb(223, 99, 99);
+
 }
 .hidden{
   display: none;
